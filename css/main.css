@@ -41,3 +41,55 @@ body {
     text-decoration: none;
     color: whitesmoke;
 }
+
+#home {
+    height: 600px;
+    margin-top: 70px;
+    /*background-image: url(../assets/images/bg-home.jpg);*/
+    background-color: #58CAAD;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    justify-content: center;
+    align-items: center;
+    align-items: center;
+    flex-direction: column;
+    color: whitesmoke;
+}
+
+.text-home {
+    font-size: 2.4em;
+}
+
+#services {
+    background-color: white;
+    text-align: center;
+    padding: 150px;
+}
+
+#services.flex-container {
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.box-services {
+    font-weight: bold;
+}
+
+#about {
+    background-color: #58CAAD;
+    text-align: center;
+    color: #fff;
+    padding: 70px;
+}
+
+#about.flex-container {
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.box-about {
+    font-size: 1.2em;
+    font-weight: bold;
+}
