@@ -65,6 +65,7 @@ body {
 #services {
     background-color: white;
     text-align: center;
+    color: #3C4366;
     padding: 150px;
 }
 
@@ -90,6 +91,41 @@ body {
 }
 
 .box-about {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+#contact {
+    background-color: #fff;
+    text-align: center;
+    color: #3C4366;
+    padding: 70px;
+}
+
+#contact.flex-container {
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.box-contact {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+footer {
+    background: #373B47;
+    text-align: center;
+    padding: 600px;
+    color: white;
+    padding-top: 7px;
+}
+
+#foot.flex-container {
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.box-foot {
     font-size: 1.2em;
     font-weight: bold;
 }
